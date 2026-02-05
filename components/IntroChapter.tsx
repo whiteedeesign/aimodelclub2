@@ -34,7 +34,7 @@ export const IntroChapter: React.FC = () => {
         
         <section className="space-y-8 md:space-y-12 text-lg md:text-2xl leading-[1.55] text-gray-700 font-medium">
           <div className="space-y-6 md:space-y-10">
-            <p>Смотрел видео про нейросети. Разбирался с Midjourney или Stable Diffusion. Может, даже купил какой-то курс за пару тысяч рублей.</p>
+            <p>Смотрел видео про нейросети. Разбирался с ChatGPT или Nano Banana. Может, даже купил какой-то курс за пару тысяч рублей.</p>
             <p>Генерировал картинки. Радовался результатам. Показывал друзьям: «Смотри, как круто нейронка рисует!»</p>
           </div>
 
