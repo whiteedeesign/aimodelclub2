@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { 
   PlayCircle, 
@@ -54,7 +53,7 @@ export const BonusChapter: React.FC = () => {
 
               <div className="space-y-4 md:space-y-6 pt-4 md:pt-6">
                 <p className="font-black text-gray-900 uppercase tracking-tight text-sm md:text-base">В этом уроке я разбираю:</p>
-                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 md:grid-cols-2 md:gap-6">
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                   {[
                     { icon: <Target className="text-red-500" size={18} />, t: "Что такое AI-модель?", d: "И сколько на ней можно заработать." },
                     { icon: <UserCheck className="text-emerald-500" size={18} />, t: "Основные ошибки", d: "И основные преимущества заработка." },
@@ -63,7 +62,6 @@ export const BonusChapter: React.FC = () => {
                   ].map((item, i) => (
                     <li key={i} className="flex gap-3 md:gap-4 items-start">
                       <div className="mt-1 shrink-0">
-                        {/* Fixed: Render icon directly with size set in the array definition to resolve TypeScript error with cloneElement */}
                         {item.icon}
                       </div>
                       <div className="space-y-0.5 md:space-y-1">
