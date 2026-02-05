@@ -40,7 +40,7 @@ export const BonusChapter: React.FC = () => {
               <div className="space-y-2 md:space-y-4">
                 <span className="bg-purple-100 text-purple-600 text-[9px] md:text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-full">ЗАКРЫТЫЙ УРОК</span>
                 <h3 className="text-2xl md:text-4xl font-black text-gray-900 tracking-tight leading-tight">
-                  «Сегментация аудитории: кому продавать, чтобы платили»
+                  «Полный видео-курс по AI-моделям»
                 </h3>
               </div>
             </div>
@@ -48,7 +48,7 @@ export const BonusChapter: React.FC = () => {
             <div className="space-y-6 md:space-y-8 text-base md:text-[21px] leading-relaxed text-gray-700">
               <div className="space-y-3 md:space-y-4">
                 <p className="font-bold text-gray-900 text-lg md:text-xl">Почему это важно?</p>
-                <p>Большинство новичков делают одну и ту же ошибку: создают контент <span className="text-gray-400 italic">«для всех»</span>.</p>
+                <p>Большинство новичков делают одну и ту же ошибку: создают контент <span className="text-gray-400 italic">без системы</span>.</p>
                 <p className="text-xl md:text-2xl font-black text-red-500 italic leading-tight">А «для всех» — значит ни для кого.</p>
               </div>
 
@@ -56,10 +56,10 @@ export const BonusChapter: React.FC = () => {
                 <p className="font-black text-gray-900 uppercase tracking-tight text-sm md:text-base">В этом уроке я разбираю:</p>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 md:grid-cols-2 md:gap-6">
                   {[
-                    { icon: <Target className="text-red-500" size={18} />, t: "Дорогие сегменты", d: "Кто платит больше всего и почему." },
-                    { icon: <UserCheck className="text-emerald-500" size={18} />, t: "Свой клиент", d: "Как говорить на его языке." },
-                    { icon: <Globe className="text-apple-blue" size={18} />, t: "Рынок USA", d: "Как достучаться до тех, кто платит в 10 раз больше." },
-                    { icon: <MessageSquare className="text-purple-500" size={18} />, t: "Кейсы позиционирования", d: "Конкретные примеры, работающие сейчас." }
+                    { icon: <Target className="text-red-500" size={18} />, t: "Что такое AI-модель?", d: "И сколько на ней можно заработать." },
+                    { icon: <UserCheck className="text-emerald-500" size={18} />, t: "Основные ошибки", d: "И основные преимущества заработка." },
+                    { icon: <Globe className="text-apple-blue" size={18} />, t: "Как создать свою модель", d: "И как сгенерировать фото и видео контент для старта." },
+                    { icon: <MessageSquare className="text-purple-500" size={18} />, t: "Пути монетизации", d: "Площадки и конкретные примеры." }
                   ].map((item, i) => (
                     <li key={i} className="flex gap-3 md:gap-4 items-start">
                       <div className="mt-1 shrink-0">
@@ -104,10 +104,17 @@ export const BonusChapter: React.FC = () => {
           </div>
 
           <div className="flex flex-col items-center md:items-start gap-8 md:gap-12">
-            <button className="w-full md:w-auto bg-gray-900 text-white px-8 md:px-12 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tight hover:bg-black transition-all shadow-2xl hover:scale-[1.02] flex items-center justify-center gap-3 md:gap-4">
-              ЗАПОЛНИТЬ АНКЕТУ И ПОЛУЧИТЬ УРОК
-              <ArrowRight size={20} className="text-apple-blue md:w-[24px] md:h-[24px]" />
-            </button>
+  {/* 👇 Заменили button на a и добавили href */}
+  <a 
+    href="https://forms.gle/QFFzq2hWmWbAdvvC9" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="w-full md:w-auto bg-gray-900 text-white px-8 md:px-12 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tight hover:bg-black transition-all shadow-2xl hover:scale-[1.02] flex items-center justify-center gap-3 md:gap-4 no-underline"
+  >
+    ЗАПОЛНИТЬ АНКЕТУ И ПОЛУЧИТЬ УРОК
+    <ArrowRight size={20} className="text-apple-blue md:w-[24px] md:h-[24px]" />
+  </a>
+</div>
 
             <div className="pt-8 md:pt-10 border-t border-gray-100 w-full space-y-8 md:space-y-12">
               <div className="bg-red-50 p-8 md:p-10 rounded-2xl md:rounded-[3rem] border border-red-100 space-y-4 md:space-y-6 relative overflow-hidden">
@@ -126,10 +133,15 @@ export const BonusChapter: React.FC = () => {
               </div>
 
               <div className="flex justify-center">
-                <button className="group bg-apple-blue text-white px-8 md:px-12 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tight hover:bg-blue-600 transition-all shadow-xl hover:scale-[1.02] flex items-center gap-3 md:gap-4">
-                  ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ
-                  <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform md:w-[24px] md:h-[24px]" />
-                </button>
+                <a 
+  href="https://forms.gle/jLBruHsCEEeQhpuk6" 
+  target="_blank" 
+  rel="noopener noreferrer"
+  className="group bg-apple-blue text-white px-8 md:px-12 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tight hover:bg-blue-600 transition-all shadow-xl hover:scale-[1.02] flex items-center justify-center gap-3 md:gap-4 no-underline"
+>
+  ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ
+  <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform md:w-[24px] md:h-[24px]" />
+</a>
               </div>
             </div>
           </div>
