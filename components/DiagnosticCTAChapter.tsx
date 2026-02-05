@@ -175,7 +175,7 @@ export const DiagnosticCTAChapter: React.FC = () => {
               Так мы не потратим время на базовые вещи и сразу перейдём к делу.
              </p>
              <p className="text-gray-900 font-black text-lg md:text-xl leading-relaxed">
-               После анкеты я свяжусь with тобой и назначим удобное время.
+               После анкеты я свяжусь с тобой и назначим удобное время.
              </p>
           </div>
         </section>
