@@ -153,10 +153,16 @@ export const DiagnosticCTAChapter: React.FC = () => {
                 <ChevronRight className="rotate-90 text-apple-blue" size={24} />
              </div>
              
-             <button className="group relative bg-apple-blue hover:bg-blue-600 text-white px-8 md:px-16 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tight transition-all shadow-2xl shadow-blue-500/40 hover:scale-105 active:scale-95 flex items-center gap-3 md:gap-4">
-               ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ
-               <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform" />
-             </button>
+             {/* 👇 Заменили button на a и добавили href */}
+  <a 
+    href="https://forms.gle/sE2udBocST8nv8HV6" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="group relative bg-apple-blue hover:bg-blue-600 text-white px-8 md:px-16 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tight transition-all shadow-2xl shadow-blue-500/40 hover:scale-105 active:scale-95 flex items-center justify-center gap-3 md:gap-4 no-underline"
+  >
+    ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ
+    <ArrowRight size={20} className="group-hover:translate-x-2 transition-transform" />
+  </a>
              
              <p className="text-[10px] md:text-sm text-gray-400 font-bold uppercase tracking-widest">
                БЕСПЛАТНО • ТОЛЬКО 5 МЕСТ В НЕДЕЛЮ
