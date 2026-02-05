@@ -87,7 +87,7 @@ export const LegalityChapter: React.FC = () => {
 
           <div className="text-base md:text-lg leading-relaxed text-gray-700 space-y-6 md:space-y-8">
             <p>Блокировки бывают. Но не из-за того, что это «нелегально».</p>
-            <p>Блокируют за нарушение правил конкретной платформы. Например, за спам в Twitter или за неправильные хештеги в Instagram.</p>
+            <p>Блокируют за нарушение правил конкретной платформы. Например, за спам или неправильные хештеги в Instagram.</p>
             
             <div className="p-6 md:p-8 bg-blue-50 border border-apple-blue/10 rounded-2xl md:rounded-3xl space-y-4 md:space-y-6">
                <p className="text-lg md:text-xl font-bold text-gray-900">В клубе мы разбираем, как работать безопасно:</p>
