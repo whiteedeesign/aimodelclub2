@@ -25,7 +25,7 @@ export const ProblemChapter: React.FC = () => {
       desc: "Никто не придёт сам. Воронка — это путь от «случайно увидел» до «заплатил деньги». Трафик → Прогрев → Конверсия → Продажа.",
       comparison: {
         bad: "Создал аккаунт, выложил контент и ждёшь.",
-        good: "Система привлечения трафика из Twitter/Reddit/TikTok."
+        good: "Система привлечения трафика из Instagram/Threads/TikTok."
       },
       icon: <MousePointerClick size={20} className="text-red-500 md:w-6 md:h-6" />
     },
