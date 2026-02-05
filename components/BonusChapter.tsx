@@ -104,45 +104,43 @@ export const BonusChapter: React.FC = () => {
           </div>
 
           <div className="flex flex-col items-center md:items-start gap-8 md:gap-12">
-  {/* 👇 Заменили button на a и добавили href */}
-  <a 
-    href="https://forms.gle/QFFzq2hWmWbAdvvC9" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className="w-full md:w-auto bg-gray-900 text-white px-8 md:px-12 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tight hover:bg-black transition-all shadow-2xl hover:scale-[1.02] flex items-center justify-center gap-3 md:gap-4 no-underline"
-  >
-    ЗАПОЛНИТЬ АНКЕТУ И ПОЛУЧИТЬ УРОК
-    <ArrowRight size={20} className="text-apple-blue md:w-[24px] md:h-[24px]" />
-  </a>
-</div>
+            <a 
+              href="https://forms.gle/QFFzq2hWmWbAdvvC9" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="w-full md:w-auto bg-gray-900 text-white px-8 md:px-12 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tight hover:bg-black transition-all shadow-2xl hover:scale-[1.02] flex items-center justify-center gap-3 md:gap-4 no-underline"
+            >
+              ЗАПОЛНИТЬ АНКЕТУ И ПОЛУЧИТЬ УРОК
+              <ArrowRight size={20} className="text-apple-blue md:w-[24px] md:h-[24px]" />
+            </a>
+          </div>
 
-            <div className="pt-8 md:pt-10 border-t border-gray-100 w-full space-y-8 md:space-y-12">
-              <div className="bg-red-50 p-8 md:p-10 rounded-2xl md:rounded-[3rem] border border-red-100 space-y-4 md:space-y-6 relative overflow-hidden">
-                <div className="absolute top-0 right-0 p-6 md:p-8 opacity-5">
-                   <Clock className="w-[80px] h-[80px] md:w-[120px] md:h-[120px]" />
-                </div>
-                <p className="text-base md:text-xl font-bold text-red-900 italic leading-relaxed">
-                  P.S. Количество диагностик ограничено. Я провожу их лично, а не делегирую ассистентам. Поэтому беру максимум 10 человек в неделю.
-                </p>
-                <p className="text-gray-900 font-medium text-sm md:text-base leading-relaxed">
-                  Если ты читаешь это — значит, места ещё есть. Но я не знаю, сколько их осталось прямо сейчас.
-                </p>
-                <p className="text-xl md:text-2xl font-black text-gray-900 tracking-tight leading-tight">
-                  Не откладывай на «потом». <span className="text-red-500 underline underline-offset-4 md:underline-offset-8 decoration-2 decoration-red-500/30">«Потом» — это место, где живут нереализованные планы.</span>
-                </p>
+          <div className="pt-8 md:pt-10 border-t border-gray-100 w-full space-y-8 md:space-y-12">
+            <div className="bg-red-50 p-8 md:p-10 rounded-2xl md:rounded-[3rem] border border-red-100 space-y-4 md:space-y-6 relative overflow-hidden">
+              <div className="absolute top-0 right-0 p-6 md:p-8 opacity-5">
+                 <Clock className="w-[80px] h-[80px] md:w-[120px] md:h-[120px]" />
               </div>
+              <p className="text-base md:text-xl font-bold text-red-900 italic leading-relaxed">
+                P.S. Количество диагностик ограничено. Я провожу их лично, а не делегирую ассистентам. Поэтому беру максимум 10 человек в неделю.
+              </p>
+              <p className="text-gray-900 font-medium text-sm md:text-base leading-relaxed">
+                Если ты читаешь это — значит, места ещё есть. Но я не знаю, сколько их осталось прямо сейчас.
+              </p>
+              <p className="text-xl md:text-2xl font-black text-gray-900 tracking-tight leading-tight">
+                Не откладывай на «потом». <span className="text-red-500 underline underline-offset-4 md:underline-offset-8 decoration-2 decoration-red-500/30">«Потом» — это место, где живут нереализованные планы.</span>
+              </p>
+            </div>
 
-              <div className="flex justify-center">
-                <a 
-  href="https://forms.gle/jLBruHsCEEeQhpuk6" 
-  target="_blank" 
-  rel="noopener noreferrer"
-  className="group bg-apple-blue text-white px-8 md:px-12 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tight hover:bg-blue-600 transition-all shadow-xl hover:scale-[1.02] flex items-center justify-center gap-3 md:gap-4 no-underline"
->
-  ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ
-  <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform md:w-[24px] md:h-[24px]" />
-</a>
-              </div>
+            <div className="flex justify-center">
+              <a 
+                href="https://forms.gle/jLBruHsCEEeQhpuk6" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="group bg-apple-blue text-white px-8 md:px-12 py-5 md:py-8 rounded-full text-lg md:text-2xl font-black tracking-tight hover:bg-blue-600 transition-all shadow-xl hover:scale-[1.02] flex items-center justify-center gap-3 md:gap-4 no-underline"
+              >
+                ЗАПИСАТЬСЯ НА ДИАГНОСТИКУ
+                <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform md:w-[24px] md:h-[24px]" />
+              </a>
             </div>
           </div>
         </section>
